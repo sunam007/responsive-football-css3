@@ -1,0 +1,18 @@
+/*--------------------------
+--------- Top Banner----- */
+
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D25A0;
+    ;
+}
+
+.top-container img{
+    width: 556px;
+    height: 438px;
+}
+
+
+
