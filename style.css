@@ -114,7 +114,7 @@ body{
 
 .highlight-container img{
     margin-left: 65px;
-    margin-bottom: 150px; /* remove this line after creating footer */
+    /* margin-bottom: 150px; remove this line after creating footer */
     
     width: 567px;
     height: 427px;
@@ -167,4 +167,38 @@ body{
 }
 
 /* footer section */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    /* width: 485px;
+    height: 215px; */
+}
+
+.footer-section .logo img{
+    width: 483px;
+    height: 110px;
+}
+
+.social-icon{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-section .social-icon img{
+    padding-left: 14px;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-section p{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    color:#000000;
+}
+
 
