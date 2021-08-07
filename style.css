@@ -14,10 +14,6 @@ body{
     height: 677px;
 }
 
-.banner-info{
-
-
-}
 .banner-title{
     margin-top:0px;
     margin-bottom: 25px;
@@ -106,6 +102,69 @@ body{
      text-justify: auto;
  }
 
+/* highlight-section */
 
+.highlight-container{
+    background-color: #FFFFFF;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
+.highlight-container img{
+    margin-left: 65px;
+    margin-bottom: 150px; /* remove this line after creating footer */
+    
+    width: 567px;
+    height: 427px;
+} 
+
+.highlight-info{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 466px;
+    height: 310px;
+    padding-bottom: 60px;
+}
+
+.highlight-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 48px;
+    color:#0A0826;
+}
+
+.highlight-info p{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+
+.highlight-button{
+    margin-top: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #E02C6D;
+    text-align: center; 
+    width: 170px;
+}
+
+.highlight-button a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* footer section */
 
