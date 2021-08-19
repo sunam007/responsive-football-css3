@@ -27,9 +27,7 @@ body{
 .top-button{
     background: #E02C6D;
     text-align: center; 
-     width: 170px;
-     /* height:25px; */
-    
+    width: 170px;
     padding: 10px 10px 10px 10px;
 }
 
@@ -43,7 +41,6 @@ body{
 .top-button i{
        padding-left: 8px;
        font-size: 16px;
-       /* padding: 10px 32px 10px 24px; */
        padding-left: 8px;
 
 }
@@ -79,7 +76,6 @@ body{
     width: 315px;
     height: 460px;
     padding: 15px;
-    /* border: 2px solid greenyellow; */
     box-shadow: 5px 5px 10px 20px #f4f4f4;
 }
 
@@ -101,8 +97,8 @@ body{
      text-justify: auto;
 }
 
-/*-------------------
- highlight-section */
+/*----------------------------
+ -----highlight-section------*/
 
 
 .highlight-container{
@@ -165,8 +161,8 @@ body{
 
 }
 
-/*------------
- footer section */
+/*------------------------
+-------footer section----*/
 
 
 .footer-section{
@@ -201,5 +197,90 @@ body{
 }
 
 
+/* --------
+   Media quaries 
+  ------------- */
+
+  /* Mobile Devices */
 
 
+@media only screen and (max-width: 688px) 
+{
+
+    .top-container{
+        background-color: #2D25A0;
+        display: grid;
+        justify-content: start;
+        padding-left: 15px;
+    
+    }
+    .banner-info{
+        padding-left: 15px;
+    }
+    .banner-title{
+        padding-top: 65px;
+        margin-bottom: 0px;
+        font-size: 36px;
+        width: 100%;
+        
+    }
+
+    .top-button{
+        margin-top: 30px;
+    }
+
+    .top-container img{
+        width: 330px;
+        height: 260px;
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+
+    .all-players{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .highlight-container{
+        display: grid;
+        margin-top: 80px;
+       justify-content: center;
+    }
+
+    .highlight-title{
+        font-size: 30px;
+    }
+
+    .highlight-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 330px;
+        height: 230px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+
+    }
+
+    .highlight-button{
+        margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+   
+    .highlight-container img {
+
+        margin-left: 15px;
+        width: 328px;
+        height: 248px;
+    }
+
+    .footer-section{
+        margin-top: 45px;
+    }
+
+    .footer-section .logo img {
+        width: 265px;
+        height: 65px;
+    }
+
+}
